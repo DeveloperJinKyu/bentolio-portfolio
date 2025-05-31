@@ -6,19 +6,21 @@ body {
   color: #000;
 }
 .container {
-  max-width: 1200px;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
   margin: 0 auto;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  background: #F9F1F0;
+  overflow: hidden;
 }
 .header {
-  background: #FADCD9;
-  border-radius: 20px;
-  margin: 24px 0 0 24px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
   width: 1392px;
   height: 101px;
+  background: #FADCD9;
+  border-radius: 20px;
   display: flex;
   align-items: center;
 }
@@ -47,12 +49,13 @@ body {
   text-transform: uppercase;
 }
 .slogan {
-  background: #FADCD9;
-  border-radius: 20px;
-  margin: 146px 0 0 24px;
+  position: absolute;
+  left: 24px;
+  top: 146px;
   width: 565px;
   height: 479px;
-  position: relative;
+  background: #FADCD9;
+  border-radius: 20px;
 }
 .slogan h1 {
   font-size: 56px;
@@ -90,13 +93,13 @@ body {
   top: -19px;
 }
 .work {
-  background: #FADCD9;
-  border-radius: 20px;
   position: absolute;
   left: 968px;
   top: 149px;
   width: 447px;
   height: 726px;
+  background: #FADCD9;
+  border-radius: 20px;
   padding: 34px 24px;
   display: flex;
   flex-direction: column;
@@ -122,13 +125,13 @@ body {
   border-radius: 50%;
 }
 .about {
-  background: #FADCD9;
-  border-radius: 20px;
   position: absolute;
   left: 24px;
   top: 649px;
   width: 448px;
   height: 351px;
+  background: #FADCD9;
+  border-radius: 20px;
   padding: 32px 24px;
   display: flex;
   flex-direction: column;
@@ -147,13 +150,13 @@ body {
   margin-top: 100px;
 }
 .contact {
-  background: #F8AFA6;
-  border-radius: 20px;
   position: absolute;
   left: 496px;
   top: 649px;
   width: 448px;
   height: 351px;
+  background: #F8AFA6;
+  border-radius: 20px;
   padding: 30px 24px;
   display: flex;
   flex-direction: column;
@@ -182,13 +185,13 @@ body {
   border-radius: 50%;
 }
 .socials {
-  background: #FADCD9;
-  border-radius: 20px;
   position: absolute;
   left: 968px;
   top: 899px;
   width: 448px;
   height: 101px;
+  background: #FADCD9;
+  border-radius: 20px;
   display: flex;
   align-items: center;
 }
